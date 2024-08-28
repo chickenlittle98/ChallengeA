@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+:root{
+    --corprincipal: #000000;
+    --corsecundaria:#dbe1db;
+    --cortitulo:#009b4b;
+}
+
+body{
+    background: var(--corprincipal);
+
+}
+
+*{
+    margin: 30;
+    padding: 20;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 300px;
+    font-style: normal;
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    font-size: 65px;
+}
+
+.cabecalho h1{
+    color: var(--cortitulo);
+}
+
+.cabecalho img{
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 0 0 4%;
+}
+
+.container-input .input{
+    width: 600px;
+    height: 400px;
+}
+
+#input-texto{
+    width: 300px;
+    height: 3600px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cortitulo);
+    border-radius: 20px;
+    width: 300px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width:150px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.container-btn button{
+    border: 2px solid var(--cortitulo);
+    border-radius: 50px;
+    text-decoration: none;
+    color: #c781b7;
+    width: 300px;
+    height: 60px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    border: 2px solid var(--cortitulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #c191b6;
+    width: 150px;
+    height: 70px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-btn button:hover{
+   border: 2px solid var(--corsecundaria);
+   transition: 0.5s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 18px ;
+    background:var(--corprincipal) ;
+    color: var(--cortitulo);
+}
+
+.rodape h3{
+    font-size: 10px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cortitulo);
+}
+
+.icons ion-icon:hover{
+    color: var(--corsegundaria);
+}
